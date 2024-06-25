@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/japkirat/BankSecure/build/src",
+  "command": "/usr/bin/g++  -I/home/japkirat/BankSecure/inc -g -o CMakeFiles/bank_secure.dir/bank_secure.cpp.o -c /home/japkirat/BankSecure/src/bank_secure.cpp",
+  "file": "/home/japkirat/BankSecure/src/bank_secure.cpp"
+},
+{
+  "directory": "/home/japkirat/BankSecure/build/src",
+  "command": "/usr/bin/g++  -I/home/japkirat/BankSecure/inc -g -o CMakeFiles/bank_secure.dir/account.cpp.o -c /home/japkirat/BankSecure/src/account.cpp",
+  "file": "/home/japkirat/BankSecure/src/account.cpp"
+},
+{
+  "directory": "/home/japkirat/BankSecure/build/src",
+  "command": "/usr/bin/g++  -I/home/japkirat/BankSecure/inc -g -o CMakeFiles/bank_secure.dir/auth.cpp.o -c /home/japkirat/BankSecure/src/auth.cpp",
+  "file": "/home/japkirat/BankSecure/src/auth.cpp"
+},
+{
+  "directory": "/home/japkirat/BankSecure/build/src",
+  "command": "/usr/bin/g++  -I/home/japkirat/BankSecure/inc -g -o CMakeFiles/bank_secure.dir/customer.cpp.o -c /home/japkirat/BankSecure/src/customer.cpp",
+  "file": "/home/japkirat/BankSecure/src/customer.cpp"
+},
+{
+  "directory": "/home/japkirat/BankSecure/build/src",
+  "command": "/usr/bin/g++  -I/home/japkirat/BankSecure/inc -g -o CMakeFiles/bank_secure.dir/encrypt.cpp.o -c /home/japkirat/BankSecure/src/encrypt.cpp",
+  "file": "/home/japkirat/BankSecure/src/encrypt.cpp"
+},
+{
+  "directory": "/home/japkirat/BankSecure/build/src",
+  "command": "/usr/bin/g++  -I/home/japkirat/BankSecure/inc -g -o CMakeFiles/bank_secure.dir/kyc.cpp.o -c /home/japkirat/BankSecure/src/kyc.cpp",
+  "file": "/home/japkirat/BankSecure/src/kyc.cpp"
+},
+{
+  "directory": "/home/japkirat/BankSecure/build/src",
+  "command": "/usr/bin/g++  -I/home/japkirat/BankSecure/inc -g -o CMakeFiles/bank_secure.dir/mysql_con.cpp.o -c /home/japkirat/BankSecure/src/mysql_con.cpp",
+  "file": "/home/japkirat/BankSecure/src/mysql_con.cpp"
+},
+{
+  "directory": "/home/japkirat/BankSecure/build/src",
+  "command": "/usr/bin/g++  -I/home/japkirat/BankSecure/inc -g -o CMakeFiles/bank_secure.dir/screens.cpp.o -c /home/japkirat/BankSecure/src/screens.cpp",
+  "file": "/home/japkirat/BankSecure/src/screens.cpp"
+},
+{
+  "directory": "/home/japkirat/BankSecure/build/src",
+  "command": "/usr/bin/g++  -I/home/japkirat/BankSecure/inc -g -o CMakeFiles/bank_secure.dir/transactions.cpp.o -c /home/japkirat/BankSecure/src/transactions.cpp",
+  "file": "/home/japkirat/BankSecure/src/transactions.cpp"
+}
+]
