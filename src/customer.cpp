@@ -306,12 +306,6 @@ void Customer :: DeleteCustomer(){
 
     if(choice=='y') {
 
-        std::stringstream queryStream1;
-        queryStream1 << "DELETE FROM CustomerDetails WHERE Username='" 
-                    << username << "';"; 
-        std::string deleteCustomerDetails = queryStream1.str();
-        my_db_object->Execute(deleteCustomerDetails);
-
         std::stringstream queryStream2;
         queryStream2 << "DELETE FROM KYCDetails WHERE CustomerID='" 
                     << to_string(id) << "';"; 
@@ -329,6 +323,12 @@ void Customer :: DeleteCustomer(){
                     << to_string(id) << "';"; 
         std::string deleteTransactionDetails = queryStream4.str();
         my_db_object->Execute(deleteTransactionDetails);
+
+        std::stringstream queryStream1;
+        queryStream1 << "DELETE FROM CustomerDetails WHERE Username='" 
+                    << username << "';"; 
+        std::string deleteCustomerDetails = queryStream1.str();
+        my_db_object->Execute(deleteCustomerDetails);
 
         cout<<"Account Deleted."<<endl;
 
