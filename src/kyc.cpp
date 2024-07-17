@@ -23,8 +23,7 @@ void KYC :: GetKycData(){
 
     std::cout << "Enter ID issue date (YYYY-MM-DD) : ";
     std::getline(std::cin, id_issue_date_);
-    cout<<id_issue_date_;
-
+    
     std::cout << "Enter ID expiry date (YYYY-MM-DD) : ";
     std::getline(std::cin, id_expiry_date_);
 
