@@ -5,4 +5,5 @@
 ###   1. All the files in this repository downloaded in your pc.
 ###   2. MySQL installed and connected to the server.
 ###   3. Two MySQL libraries mysqlclient and mysqlcppconn.
+###   4. All the tables should be created before building and launching the project in one databse.
 ### You can use the cmake file provided to compile and run the sode or use command line to manually compile the program.
